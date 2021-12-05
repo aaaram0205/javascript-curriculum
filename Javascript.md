@@ -364,8 +364,8 @@ arr1[9] = 10;
   ```
 </details>
 
-* ❔ 해당 배열이 가진 `length`보다 큰 `index`를 `Read` 한다면?
-* ❔ 해당 배열이 가진 `length`보다 큰 `index`를 `Update` 한다면?
+* ❔ 해당 배열이 가진 `length`보다 큰 `index`를 `Read` 한다면?   ///undefined
+* ❔ 해당 배열이 가진 `length`보다 큰 `index`를 `Update` 한다면?   /// 해당 인덱스에 update한 값이 할당됨
 
 ### 익명 배열   /// 변수선언 없이 배열 만드는것, 재사용 X
 ```js
