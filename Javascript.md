@@ -352,8 +352,8 @@ const quiz3 = arr1[5];
 // quiz4
 arr1[9] = 10;
 ```
-* ❔ `빈 배열`은 참일까 거짓일까?
-* ❔ 문제: `arr1`와 `arr2`는 같을까?
+* ❔ `빈 배열`은 참일까 거짓일까?   //답: 참(거짓 조건은 `false`, `0`, `null`, `undefined`, `NaN`, `''` 이고, 나머지는 모두 참인 조건이 된다.)
+* ❔ 문제: `arr1`와 `arr2`는 같을까?   //정답: 다르다.(선언된 변수와 배열은 각각 다른 메모리 주소를 갖는다.)
 * <details><summary>정답</summary>
 
   https://ovdncids.github.io/javascript-curriculum/images/memory.png
